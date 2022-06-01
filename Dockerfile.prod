@@ -1,0 +1,16 @@
+FROM node:16.15.0-alpine as build
+
+WORKDIR .
+
+COPY package.json ./
+
+RUN yarn install --silent
+
+COPY ./ .
+
+RUN yarn build
+
+
+FROM nginx as production-stage
+
+COPY --from=build ./build /usr/share/nginx/html
