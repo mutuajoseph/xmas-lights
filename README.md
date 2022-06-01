@@ -12,8 +12,10 @@
 ##### Change number of rows and pattern
 
 * Click the settings icon on the top right.
+* To switch off the light click on the Play button and vice versa.
 
-<img width="1440" alt="Screenshot 2022-06-01 at 12 03 08" src="https://user-images.githubusercontent.com/29919486/171368893-e39b592d-70fd-4357-a1fa-f280c748516e.png">
+<img width="1438" alt="Screenshot 2022-06-01 at 12 13 54" src="https://user-images.githubusercontent.com/29919486/171370444-44ec114c-44bf-4cf1-a598-7d3a18d0ac13.png">
+
 
 ### Dockerize the solution
 
